@@ -15,5 +15,8 @@ The default user is
 * hr : username = ada, password = asd
 
 INSTALLATION
-Checkout this source code at http://github.com/inoex135/leaveapp
+1. Checkout this source code at http://github.com/inoex135/leaveapp
+2. Dump the database script in database/leaveapp.sql into your mysql server
+3. Edit system/application/config/config.php and system/application/config/database.php
 
+That's all
