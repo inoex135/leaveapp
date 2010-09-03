@@ -1,0 +1,19 @@
+This is a demo application of online leave application.
+
+There are some of rules :
+* admin : someone who can manage user dan type of leave
+* staff : someone who can create a leave application
+* supervisor : someone who can recommend a staff's leave application
+* manager : somenone who can approve or reject applicaton
+* hr : someone who can manage leave applications
+
+The default user is 
+* admin: username = admin, password = admin
+* staff : username = staff, password = staff
+* supervisor : username = supervisor, password = supervisor
+* manager : username = manager, password = manager
+* hr : username = ada, password = asd
+
+INSTALLATION
+Checkout this source code at http://github.com/inoex135/leaveapp
+
