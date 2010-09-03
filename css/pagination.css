@@ -1,0 +1,80 @@
+.pagination{
+	padding: 0 0 10px 0;
+}
+.paging{
+	padding-top: 10px;
+	display:block;
+	float:right;
+}
+.paging div.disabled_prev, .paging div.disabled_next, .paging div
+{
+	text-indent:-10000px;
+	width:25px;
+	height:23px;
+	color:#666;
+	float:left;
+}
+.info div.disabled_prev, .info div.disabled_next, .info div
+{
+	float: left;
+	display:none;
+}
+.paging div.disabled_prev{
+	background: transparent url('pagination/paging.png') no-repeat scroll 0px -69px;
+}
+.paging div.disabled_next{
+	background: transparent url('pagination/paging.png') no-repeat scroll -45px -69px;
+}
+.paging a.next{
+	background: transparent url('pagination/paging.png') no-repeat scroll -45px 0px;
+	text-indent:-10000px;
+	width:25px;
+	height:23px;
+	color:#666;
+	border-bottom:0 none;
+	border-top:0 none;
+	padding:0;
+}
+.paging a.prev{
+	background: transparent url('pagination/paging.png') no-repeat scroll 0px 0px;
+	text-indent:-10000px;
+	width:25px;
+	height:23px;
+	color:#666;
+	border-bottom:0 none;
+	border-top:0 none;
+	padding:0;
+}
+.paging a.prev:hover{
+	background: transparent url('pagination/paging.png') no-repeat scroll 0px -23px;
+}
+.paging a.prev:active{
+	background: transparent url('pagination/paging.png') no-repeat scroll 0px -46px;
+}
+.paging a.next:hover{
+	background: transparent url('pagination/paging.png') no-repeat scroll -45px -23px;
+}
+.paging a.next:active{
+	background: transparent url('pagination/paging.png') no-repeat scroll -45px -46px;
+}
+.paging a, .paging span.current{
+	height:19px;
+	color:#999;
+	font-weight:normal;
+	border-bottom:1px solid rgb(172,172,172);
+	border-top:1px solid rgb(224,224,224);
+	padding: 2px 8px 0;
+	float:left;
+	background:rgb(237,237,237);
+}
+.paging a{
+
+}
+.paging a:hover{
+	background:#ddd;
+}
+.paging span.current{
+	background:#ddd;
+	font-weight:bold;
+	color:#333;
+}

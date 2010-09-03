@@ -1,0 +1,137 @@
+/* forms.css */
+label {
+    font-weight:bold; display:block; width:100%;
+    color:#3cb73f;
+}
+.form form{
+    /*border-top:1px solid #bbb*/
+}
+fieldset {padding:1.4em;margin:0 0 1.5em 0; background-color:#F4F9FD; border:1px solid #deeaf8;}
+legend {font-weight:bold;font-size:1.2em;}
+label.ghost:after{
+    content: ".";
+    color:#fafafa;
+}
+form h3 {color:#999;}
+.error, .notice, .success {padding:.8em;margin-bottom:1em;border:1px solid #ddd;}
+.error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
+.notice {background:#FFF6BF;color:#514721;border-color:#FFD324;}
+.success {background:#E6EFC2;color:#264409;border-color:#C6D880;}
+.error a {color:#8a1f11;}
+.notice a {color:#514721;}
+.success a {color:#264409;}
+
+div.checkboxmultiple {
+    margin-top:5px;
+    width: 100%;
+    overflow:auto;
+    border-top: 1px solid #deeaf8;
+    border-bottom: 1px solid #fff;
+}
+div.checkboxmultiple .input{
+    margin:0;
+}
+div.checkboxmultiple .checkbox {
+    border-bottom: 1px solid #deeaf8;
+    border-top: 1px solid #fff;
+    padding: 8px 12px;
+}
+div.checkboxmultiple .checkbox input{float:left}
+div.checkboxmultiple label{display:inline; font-weight:normal; color:#000}
+input[type=text],input[type=password], textarea, select {
+    border: 1px solid #BBBBBB;
+    background: url('skin/back.input.gif') repeat-x scroll 0% 0% rgb(255, 255, 255);
+}
+input[type=text],input[type=password], select, textarea{
+    padding: 4px;
+    font-size: 12px;
+    width:90%;
+}
+textarea{
+    width:89%;
+}
+input.maininput{
+    background:none transparent;
+}
+div.input {
+    margin: 10px 0;
+}
+.submit {
+    text-align:center;
+}
+.submit * {
+    margin: 0 8px;
+}
+
+.submit input{
+    border: 1px solid rgb(204, 204, 204); padding: 4px 28px; background: transparent url('skin/btn.gif') repeat-x scroll 0pt -52px; overflow: visible; display: inline-block; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; color: rgb(102, 102, 102); cursor: pointer; -moz-border-radius-topleft: 2.5px; -moz-border-radius-topright: 2.5px; -moz-border-radius-bottomright: 2.5px; -moz-border-radius-bottomleft: 2.5px; font-size: 12px; line-height: 15px ! important; font-family: Helvetica,Arial,Verdana; text-align: center;
+    border: 1px solid rgb(0, 132, 180); background-position: 0pt -52px; color: rgb(255, 255, 255); text-shadow: -1px -1px 0pt rgb(46, 144, 177);
+}
+.submit input:hover {
+    /*background: url('skin/back.button.hover.png') repeat scroll 0% 0% rgb(245, 245, 245);*/
+    background-position: 0pt -78px; background-color: #45B4DA;
+}
+.button { border: 1px solid rgb(204, 204, 204); padding: 4px 8px; background: transparent url('skin/btn.gif') repeat-x scroll 0pt 0pt; overflow: visible; display: inline-block; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; color: rgb(102, 102, 102); cursor: pointer; -moz-border-radius-topleft: 2.5px; -moz-border-radius-topright: 2.5px; -moz-border-radius-bottomright: 2.5px; -moz-border-radius-bottomleft: 2.5px; font-size: 12px; line-height: 15px ! important; font-family: Helvetica,Arial,Verdana; text-align: center; }
+.button:hover, .button:focus, .button:active { background-position: 0pt -26px; color: rgb(66, 66, 66); text-decoration:none }
+
+input[type=text]:active, input[type=text]:focus,input[type=password]:active, input[type=password]:focus, textarea:active, textarea:focus{
+    border: 1px solid #77A233;
+}
+.submit input:active,.submit input:focus {
+    border: 1px solid #888;
+}
+a.new, a.act {
+    display:block;
+    height: 20px;
+    line-height:20px;
+    font-weight:normal;
+    text-decoration:none;
+    color:#478529;
+    padding: 4px 0 4px 38px;
+    background-color: #EFEFEF;
+}
+a.new {
+    background: transparent url('skin/add_circle.gif') no-repeat scroll 10px 4px;
+}
+a.new:hover, a.act:hover {
+    text-decoration:underline;
+}
+a.cancel {
+    color:#777;
+}
+a.cancel:hover {
+    color:#000;
+}
+form.filter label{font-weight:normal; color:#666}
+form.filter input[type=text], form.filter select {
+    background:#fafafa;
+    padding: 6px 6px 5px;
+    border: 1px solid #bbb;
+    width:100%;
+}
+form.filter select {
+    padding: 4px;
+}
+.time select {
+    width:80px;
+}
+form.filter .submit{
+    text-align:left;
+}
+form.filter .submit input{
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px solid #bbb;
+    text-shadow: 0px 1px 0px #eee;
+    text-align: center;
+    -moz-user-select: none;
+    background: none repeat scroll 0% 0% rgb(245, 245, 245);
+    color: rgb(54, 54, 54);
+    padding: 4px 20px;
+}
+input.w8em, form.filter input.w8em{
+    width:100px;
+}
+a.date-picker-control {
+
+}

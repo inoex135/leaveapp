@@ -1,0 +1,31 @@
+/* Tables */
+table.list {margin-bottom:10px;border-collapse: separate; width:100%; background-color:#fff; border:1px solid #deeaf8}
+table.list thead th { color:#fff;background: #00549F none/*url('skin/back.table.head.white.gif')*/ repeat-x scroll top left;  font-weight:bold; border-bottom: 1px solid #b9d1f0}
+table.list thead th, table.list th { padding: 6px 6pt 6px 12px; text-align:left}
+table.list th {background-color:#cae1fb; color:#2f76c4; font-weight:bold;text-align: center}
+table.list td { border-bottom: 1px solid #deeaf8;padding: 4px 6px; color: #000; font-size:11px; background-color:#f4f9fd}
+table.list thead th a {color:#5fd616}
+table.list th a {color:#3d9c25}
+table.list td.hidden {padding: 0px; color: rgb(76, 76, 76); border-bottom: none; display:none;}
+table.list tr.altrow { background: #f9f9f9 none repeat scroll 0% 0%;}
+table.list td.actions, table.list th.actions{text-align:center; width:120px}
+table.list td.actions img {margin: 0 5px}
+table.list tr { /*background: #fff none repeat scroll 0% 0%; */}
+table.form { border-collapse: collapse; width:100%;}
+table.list .money{text-align:right;}
+
+table.filter {border:0 none; margin-bottom:0}
+table.filter td{padding:4px 20px 4px 0}
+table.filter td{border:0 none}
+
+table.list td.primary {
+    padding: 8px;
+}
+table.list td.primary a {
+    font-weight:bold;
+    font-size:12px;
+}
+
+table#usingborder td {
+    border: 1px solid #cae1fb;
+}
